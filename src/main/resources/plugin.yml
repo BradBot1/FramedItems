@@ -1,0 +1,9 @@
+main: fun.bb1.spigot.frameditems.Loader
+name: FramedItems
+version: 1
+description: Allows for itemframs to be used for building
+load: POSTWORLD
+api-version: 1.18
+api: "1.18"
+author: BradBot_1#2042
+website: https://github.com/BradBot1/FramedItems
