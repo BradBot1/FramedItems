@@ -55,10 +55,10 @@ public class Loader extends JavaPlugin implements Listener {
 		final UUID uuid = event.getPlayer().getUniqueId();
 		if (this.map.contains(uuid)) {
 			this.map.remove(uuid);
-			event.getPlayer().spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacyText("You will now place invisible item frames!"));
+			event.getPlayer().spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacyText("You will now place visible item frames!"));
 		} else {
 			this.map.add(uuid);
-			event.getPlayer().spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacyText("You will now place visible item frames!"));
+			event.getPlayer().spigot().sendMessage(ChatMessageType.ACTION_BAR, TextComponent.fromLegacyText("You will now place invisible item frames!"));
 		}
 	}
 	
